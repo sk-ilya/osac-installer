@@ -24,7 +24,7 @@ images:
   newName: docker.io/gomplate/gomplate
   newTag: latest
 - name: postgres
-  newName: quay.io/sclorg/postgresql-15-c9s
+  newName: quay.io/sclorg/postgresql-18-c10s
   newTag: latest
 - name: ghcr.io/osac-project/fulfillment-service
   newTag: sha-1528878

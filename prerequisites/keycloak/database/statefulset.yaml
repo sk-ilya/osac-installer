@@ -56,7 +56,7 @@ spec:
           fi
       containers:
       - name: server
-        image: quay.io/sclorg/postgresql-15-c9s:latest
+        image: quay.io/sclorg/postgresql-18-c10s:latest
         imagePullPolicy: IfNotPresent
         env:
         - name: POSTGRESQL_USER
