@@ -358,7 +358,7 @@ EOF
         --dry-run=client -o yaml | oc apply -f -
 
     echo "Deploying OSAC using Helm..."
-    helm dependency build charts/osac/
+    helm dependency update charts/osac/
     helm upgrade --install osac charts/osac/ \
         --namespace "${INSTALLER_NAMESPACE}" \
         --values "${VALUES_FILE}" \
